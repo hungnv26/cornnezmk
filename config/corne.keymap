@@ -26,6 +26,26 @@
             bindings = <&kp CAPS>;
             key-positions = <24 12>;
         };
+
+        scroll-up {
+            bindings = <&kp K_SCROLL_UP>;
+            key-positions = <5 17>;
+        };
+
+        scoll-down {
+            bindings = <&kp K_SCROLL_DOWN>;
+            key-positions = <17 29>;
+        };
+
+        vol-up {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <6 18>;
+        };
+
+        vol-down {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <18 30>;
+        };
     };
 
     keymap {
