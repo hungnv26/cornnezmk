@@ -28,12 +28,12 @@
         };
 
         scroll-up {
-            bindings = <&kp K_SCROLL_UP>;
+            bindings = <&kp C_AC_SCROLL_UP>;
             key-positions = <5 17>;
         };
 
         scoll-down {
-            bindings = <&kp K_SCROLL_DOWN>;
+            bindings = <&kp C_AC_SCROLL_DOWN>;
             key-positions = <17 29>;
         };
 
@@ -45,6 +45,26 @@
         vol-down {
             bindings = <&kp C_VOLUME_DOWN>;
             key-positions = <18 30>;
+        };
+
+        arrow-up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <7 8>;
+        };
+
+        arrow-down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <20 19>;
+        };
+
+        arrow-left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <19 18>;
+        };
+
+        arrow-right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <20 21>;
         };
     };
 
